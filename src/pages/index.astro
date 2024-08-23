@@ -11,11 +11,9 @@ import Hero1 from "../assets/page-1.png"
 import About1 from "../assets/about-1.png";
 import About2 from "../assets/about-2.png";
 
-// Services Images
-import Service1 from "../assets/service-1.png";
-import Service2 from "../assets/service-2.png";
-import Service3 from "../assets/service-3.png";
-import Service4 from "../assets/service-4.png";
+// Gallery Images
+import Gallery1 from "../assets/gallery-1.png";
+
 
 // Testimonial images
 import Testimonial1 from "../assets/testimonial-1.png";
@@ -110,20 +108,14 @@ import Values from '../components/Values.astro';
 
 	
 
-<!-- ============= Values ============= -->
-<Values></Values>
-<!-- End of Values -->
-
 
 	<!-- =========================== Section About ===================== -->
-	<!-- <section class="section-home_about py-40 relative">
+	<section class="section-home_about py-40 relative">
 		<div class="container wrapper">
 			<div class="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
 				<div class="slide-fleft">
-					<h1 class="heading-big">Welcome to Aceltrim</h1>
-					<p class="mb-8">Where we transform landscapes into vibrant works of art.
-					<br>
-					From design to maintenance, our passionate team is committed to excellence, sustainability, and innovation in every project we undertake.
+					<h1 class="heading-big">About Us</h1>
+					<p class="mb-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sed nihil odit asperiores consequuntur nam minima quisquam vero. Iste ut aperiam eius dignissimos praesentium animi veritatis? Ratione facere porro sequi!
 					</p>
 					<a href="/about" class="btn btn-orange">More about us</a>
 				</div>
@@ -133,7 +125,7 @@ import Values from '../components/Values.astro';
 			</div>
 		</div>
 		<div class="orange-blur top-90%"></div>
-	</section> -->
+	</section>
 
 	<!-- End of section about -->
 
@@ -141,91 +133,38 @@ import Values from '../components/Values.astro';
 
 
 
-
-	<!-- =========================== Section Values ===================== -->
-	<!-- <Values></Values> -->
-	<!-- End of Values -->
-
+<!-- ============= Values ============= -->
+<Values></Values>
+<!-- End of Values -->
 
 
 
 
-	<!-- =========================== Section services ===================== -->
-	<!-- <section class="section-service py-40 relative">
+	<!-- =========================== Our Projects ===================== -->
+	<section class="section-home_about py-40 relative">
 		<div class="container wrapper">
-			<h2 class="heading-secondary mb-12">Our Services</h2>
-			<p class="mb-12">Comprehensive Landscaping Solutions Tailored to Your Vision
-			</p>
-
-			<div class="grid grid-cols-1 gap-12"> -->
-				<!-- Landscape Design and Installation-1 -->
-				<!-- <div class="service grid grid-cols-1 md:grid-cols-2  items-center fade-up">
-					<div class="service-text md:text-left md:pr-12">
-						<h3>Landscape Design and Installation</h3>
-						<p>Landscape design services to enhance the aesthetic appeal of residential and commercial properties.
-							</p>
-						<a href="/services#landscpae-design" class="btn-thin">Learn More</a>
-					</div>
-					<div class="service-img">
-						<Image src={Service1} alt="Landscape Design and Installation" />
-					</div>
-				</div> -->
-				<!-- End of Landscape Design and Installation -->
-
-				<!-- Lawn Care and Maintenance -->
-				<!-- <div class="service grid grid-cols-1 md:grid-cols-2  items-center fade-up">
-					<div class="service-text md:text-left md:pr-12">
-						<h3>Lawn Care and Maintenance</h3>
-						<p> Regular lawn mowing, trimming, and edging services to keep lawns looking
-						neat and healthy. </p>
-						<a href="/services#lawn-care" class="btn-thin">Learn More</a>
-					</div>
-					<div class="service-img">
-						<Image src={Service2} alt="Lawn Care and Maintenance" />
-					</div>
-				</div> -->
-				<!-- End of LawnCare and Maintenance -->
-
-				<!-- Hardscape Construction -->
-				<!-- <div class="service grid grid-cols-1 md:grid-cols-2  items-center fade-up">
-					<div class="service-text md:text-left md:pl-12">
-						<h3> Hardscape Construction</h3>
-						<p> Customized hardscape design and installation services, including patios,
-							walkways, retaining walls, and outdoor living spaces</p>
-						<a href="/services#hardscape-construction" class="btn-thin">Learn More</a>
-					</div>
-					<div class="service-img">
-						<Image src={Service3} alt="Hardscape Construction" />
-					</div>
-				</div> -->
-				<!-- End of Hardscape Construction -->
-
-				<!-- Landscape Renovations -->
-				<!-- <div class="service grid grid-cols-1 md:grid-cols-2  items-center fade-up">
-					<div class="service-text md:text-left md:pr-12">
-						<h3> Landscape Renovation and Enhancement</h3>
-						<p> Comprehensive landscape renovation services to revitalize outdated or
-							neglected outdoor spaces.</p>
-						<a href="/services#landscape-renovation" class="btn-thin">Learn More</a>
-					</div>
-					<div class="service-img">
-						<Image src={Service4} alt="Landscape Design and Installation" />
-					</div>
-				</div> -->
-				<!-- End of service-1 -->
-			<!-- </div>
+			<div class="grid grid-cols-1 md:grid-cols-2 gap-24 items-center">
+				<div class="slide-fleft">
+					<h1 class="heading-big">Our Projects</h1>
+					<p class="mb-8">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos sed nihil odit asperiores consequuntur nam minima quisquam vero. Iste ut aperiam eius dignissimos praesentium animi veritatis? Ratione facere porro sequi!
+					</p>
+					<a href="/about" class="btn btn-orange">More projects</a>
+				</div>
+				<div class="grid grid-cols-2 gap-4">
+					<Image src={About2} alt="Aceltrim Group" class="fade-up" />
+					<Image src={About2} alt="Aceltrim Group" class="fade-up" />
+					<Image src={About2} alt="Aceltrim Group" class="fade-up" />
+					<Image src={About2} alt="Aceltrim Group" class="fade-up" />
+				</div>
+			</div>
 		</div>
+		<div class="orange-blur top-90%"></div>
+	</section>
 
-		<div class="green-blur top-0% right-0"></div>
-	</section> -->
-
-	<!-- End of services -->
-
+	<!-- End of section Projects -->
 
 
-	<!-- ============= Section Banner ============== -->
-	<!-- <Banner></Banner> -->
-	<!--End of section Banner  -->
+
 
 
 	<!-- ================== This will be the donate banner ================ -->
@@ -234,95 +173,29 @@ import Values from '../components/Values.astro';
 
 
 
-	<!-- =========================== Section Testimonials ===================== -->
-	<!-- <section class="section-testimonials py-40 relative">
+
+	<!-- =========================== Our Projects ===================== -->
+	<section class="section-gallery py-40">
 		<div class="container wrapper">
-			<h2 class="heading-secondary mb-12">Testimonials</h2>
-			<p class="text-center mb-12">True Stories of What it Means to work with Us.</p>
+			<h2 class="heading-secondary mb-8">Our Gallery</h2>
 
-			<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-				<div class="grid grid-cols-1 gap-8"> -->
-					<!-- testimonial 1 -->
-					<!-- <div class="testimonial">
-						<div class="testimonial-content">
-							<div class="testimonial-image">
-								<Image src={Testimonial1} alt="Client-1">
-								<div>
-									<h3>Carbell Sarfo</h3>
-									<p>Managing Director</p>
-								</div>
-							</div>
-							<div>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vero, libero sint quas sequi doloremque.</p>
-							</div>
-						</div>
-
-					</div> -->
-					<!-- end of Testimonial-1 -->
-
-					<!-- testimonial 2 -->
-					<!-- <div class="testimonial">
-						<div class="testimonial-content">
-							<div class="testimonial-image">
-								<Image src={Testimonial1} alt="Client-1">
-								<div>
-									<h3>Carbell Sarfo</h3>
-									<p>Managing Director</p>
-								</div>
-							</div>
-							<div>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vero, libero sint quas sequi doloremque.</p>
-							</div>
-						</div>
-
-					</div> -->
-					<!-- end of Testimonial-2 -->
-
-				<!-- </div>
-				<div class="grid grid-cols-1 gap-8 md:mt-12"> -->
-					<!-- testimonial 3 -->
-					<!-- <div class="testimonial">
-						<div class="testimonial-content">
-							<div class="testimonial-image">
-								<Image src={Testimonial1} alt="Client-1">
-								<div>
-									<h3>Carbell Sarfo</h3>
-									<p>Managing Director</p>
-								</div>
-							</div>
-							<div>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vero, libero sint quas sequi doloremque.</p>
-							</div>
-						</div>
-
-					</div> -->
-					<!-- end of Testimonial-3 -->
-
-
-					<!-- testimonial 4 -->
-					<!-- <div class="testimonial">
-						<div class="testimonial-content">
-							<div class="testimonial-image">
-								<Image src={Testimonial1} alt="Client-1">
-								<div>
-									<h3>Carbell Sarfo</h3>
-									<p>Managing Director</p>
-								</div>
-							</div>
-							<div>
-								<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio vero, libero sint quas sequi doloremque.</p>
-							</div>
-						</div>
-
-					</div> -->
-					<!-- end of Testimonial-4 -->
-				<!-- </div>
+			<div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
+				<div class="gallery-img fade-up">
+					<Image src={Gallery1} alt="Gallery of GlowForWomen" />
+				</div>
+				<div class="gallery-img fade-up">
+					<Image src={Gallery1} alt="Gallery of GlowForWomen" />
+				</div>
+				<div class="gallery-img fade-up">
+					<Image src={Gallery1} alt="Gallery of GlowForWomen" />
+				</div>
+			</div>
+			<div class="text-center fade-up">
+				<a href="/gallery" class="btn btn-orange">Our Gallery</a>
 			</div>
 		</div>
-
-		<div class="green-blur top-90% right-0"></div>
-	</section> -->
-	<!-- End of section Testimonials -->
+	</section>
+	<!-- End of section Gallery -->
 
 
 
@@ -505,36 +378,21 @@ import Values from '../components/Values.astro';
 
 
 
-// ================ Section services ==========
-.section-service {
-	text-align: center;
+// ================ Section Gallery ==========
+.section-gallery {
 
-	.service {
-		background-color: var(--clr-white);
-		border-radius: 1rem;
-		box-shadow: 0 .2rem .2rem rgba(0, 0, 0, 0.1);
-		overflow: hidden;
-		transition: .2s;
+	.gallery-img {
+		transition: .4s;
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.205);
+		border-radius: 10px;
 
 		&:hover {
-			box-shadow: 0 .4rem .7rem rgba(0, 0, 0, .2);
-			transform: translateY(-2px);
-		}
-
-		&-text {
-			padding: 3rem;
-			padding-top: 5rem;
-		}
-
-		h3 {
-			font-family: "montserrat", sans-serif;
-			font-weight: bolder;
-			margin-bottom: 2rem;
-			font-size: 2.5rem;
+			transform: translateY(-10px) scale(.95);
+			box-shadow: 0 3px 5px rgba(0, 0, 0, 0.405);
 		}
 	}
 }
-// End of section services
+// End of section Gallery
 
 
 

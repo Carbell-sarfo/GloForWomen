@@ -190,12 +190,16 @@ section {
     transition: .2s;
 }
 
+.btn-white {
+    background-color: var(--clr-white);
+    color: var(--clr-orange);
+}
 .btn-black {
     background-color: var(--clr-black);
     color: var(--clr-orange);
 }
 
-.btn-green {
+.btn-orange {
     background-image: linear-gradient(to right, var(--clr-orange), var(--clr-orange-dark));
     color: #fff;
 }

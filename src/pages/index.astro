@@ -1,6 +1,6 @@
 ---
 import MainLayout from '../layouts/MainLayout.astro';
-import Banner from '../components/Banner.astro';
+import DonateBanner from '../components/DonateBanner.astro';
 
 import { Image } from "astro:assets";
 
@@ -27,7 +27,7 @@ import Values from '../components/Values.astro';
 
 
 	<!-- =========================== Coming soon Pge ===================== -->
-	<section class="section-coming-soon">
+	<!-- <section class="section-coming-soon">
 		<div class="container wrapper">
 			<div class="coming-container">
 				<p>We are about to land</p>
@@ -37,22 +37,22 @@ import Values from '../components/Values.astro';
 				<a href="mailto:" class="btn btn-black">Send us a message</a>
 			</div>
 		</div>
-	</section>
+	</section> -->
 	<!-- End of Coming soon page -->
 
 
 
 
 	<!-- ============================ section Hero =================== -->
-	<!-- <section class="section-hero"> -->
+	<section class="section-hero">
 		
-		<!-- <div class="hero-swiper"> -->
+		<div class="hero-swiper">
 			<!-- Additional required wrapper -->
-			<!-- <div class="swiper-wrapper"> -->
+			<div class="swiper-wrapper">
 				<!-- Slides -->
 
 				 <!-- page-1 -->
-				<!-- <div class="swiper-slide page-1">
+				<div class="swiper-slide page-1">
 					<div class="container wrapper">
 						<div class="w-full h-full page-1_container text-white  items-center text-center md:text-left pt-40">
 							<div>
@@ -66,7 +66,7 @@ import Values from '../components/Values.astro';
 							</div>
 						</div>
 					</div>
-				</div> -->
+				</div>
 				<!-- End of Page-1 -->
 
 				<!-- Page-2 -->
@@ -102,14 +102,16 @@ import Values from '../components/Values.astro';
 			<!-- If we need navigation buttons -->
 			<!-- <div class="swiper-button-prev"></div>
 			<div class="swiper-button-next"></div> -->
-		<!-- </div>
-	</section> -->
+		</div>
+	</section>
 	<!-- End of section hero -->
 
 
 	
 
-
+<!-- ============= Values ============= -->
+<Values></Values>
+<!-- End of Values -->
 
 
 	<!-- =========================== Section About ===================== -->
@@ -225,6 +227,9 @@ import Values from '../components/Values.astro';
 	<!--End of section Banner  -->
 
 
+	<!-- ================== This will be the donate banner ================ -->
+    <DonateBanner />
+    <!-- End of donate banner -->
 
 
 

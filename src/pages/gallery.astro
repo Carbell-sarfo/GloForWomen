@@ -1,0 +1,82 @@
+---
+import MainLayout from "../layouts/MainLayout.astro";
+import { Image } from "astro:assets";
+
+import PageHeader from "../components/PageHeader.astro";
+
+import Gallery1 from "../assets/gallery-1.png";
+import Gallery2 from "../assets/gallery-2.png";
+import Gallery3 from "../assets/gallery-3.png";
+import Gallery4 from "../assets/gallery-4.png";
+import Gallery5 from "../assets/gallery-5.png";
+import Gallery6 from "../assets/gallery-6.png";
+---
+
+
+
+
+
+
+<MainLayout title="Our Projects">
+
+
+    <PageHeader>
+        Our Gallery
+    </PageHeader>
+
+
+    <!-- =============== Section Gallery ============= -->
+    <div class="section-gallery py-40">
+        <div class="container wrapper">
+            <h2 class="heading-secondary mb-12">Our Gallery</h2>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <div class="gallery-img fadeUp">
+                    <Image src={Gallery1} alt="Aceltrim Group" class:list="rounded-2xl"/>
+                </div>
+                <div class="gallery-img fadeUp">
+                    <Image src={Gallery1} alt="Aceltrim Group" class:list="rounded-2xl"/>
+                </div>
+                <div class="gallery-img fadeUp">
+                    <Image src={Gallery1} alt="Aceltrim Group" class:list="rounded-2xl"/>
+                </div>
+                <div class="gallery-img fadeUp">
+                    <Image src={Gallery1} alt="Aceltrim Group" class:list="rounded-2xl"/>
+                </div>
+                <div class="gallery-img fadeUp">
+                    <Image src={Gallery1} alt="Aceltrim Group" class:list="rounded-2xl"/>
+                </div>
+                <div class="gallery-img fadeUp">
+                    <Image src={Gallery1} alt="Aceltrim Group" class:list="rounded-2xl"/>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+    <!-- End of section Gallery -->
+</MainLayout>
+
+
+
+
+
+
+
+<style lang="scss">
+
+// ================ Section Gallery ==========
+.section-gallery {
+
+	.gallery-img {
+		transition: .4s;
+		box-shadow: 0 5px 10px rgba(0, 0, 0, 0.205);
+		border-radius: 10px;
+
+		&:hover {
+			transform: translateY(-10px) scale(.95);
+			box-shadow: 0 3px 5px rgba(0, 0, 0, 0.405);
+		}
+	}
+}
+// End of section Gallery
+</style>
